@@ -1,0 +1,17 @@
+.cache/
+.venv
+
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+
+# logs
+*.log
+
+# env
+.env
+
+.dockerignore
