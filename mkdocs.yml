@@ -1,0 +1,14 @@
+site_name: AI Engineer Roadmap
+
+docs_dir: docs
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - mkdocs-jupyter
+
+nav:
+  - 首页: index.md
+  
