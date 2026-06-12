@@ -1,14 +1,67 @@
 site_name: AI Engineer Roadmap
-
-docs_dir: docs
+site_description: AI Engineer Learning Roadmap
+site_url: https://fanqingyun.github.io/ai-engineer-roadmap
 
 theme:
-  name: material
-
+name: material
+language: zh
+docs_dir: docs
 plugins:
-  - search
-  - mkdocs-jupyter
+
+- search
+- mkdocs-jupyter
 
 nav:
-  - 首页: index.md
-  
+
+- 首页: index.md
+
+- 学习路线:
+
+  - AI Engineer: roadmap/ai-engineer.md
+
+- Fundamentals:
+
+  - uv:
+
+    - 概览: fundamentals/uv/index.md
+    - 概念: fundamentals/uv/concept.md
+    - 安装: fundamentals/uv/installation.md
+    - Python管理: fundamentals/uv/python.md
+    - uv init: fundamentals/uv/init.md
+    - uv add: fundamentals/uv/add.md
+    - uv sync: fundamentals/uv/sync.md
+    - uv run: fundamentals/uv/run.md
+    - 项目实战: fundamentals/uv/project.md
+
+  - Git: fundamentals/git/index.md
+
+  - Linux: fundamentals/linux/index.md
+
+  - Python: fundamentals/python/index.md
+
+- Backend:
+
+  - HTTP: backend/http/index.md
+  - FastAPI: backend/fastapi/index.md
+  - PostgreSQL: backend/postgresql/index.md
+
+- AI:
+
+  - NumPy:
+
+    - 概览: ai/numpy/index.md
+    - 数组: ai/numpy/array.ipynb
+
+  - PyTorch: ai/pytorch/index.md
+
+  - Transformer: ai/transformer/index.md
+
+  - RAG: ai/rag/index.md
+
+  - Agent: ai/agent/index.md
+
+  - MCP: ai/mcp/index.md
+
+- Projects:
+
+  - agent-CSE: projects/agent-CSE/index.md

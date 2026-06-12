@@ -1,12 +1,8 @@
 .cache/
-.venv
-
 
 # VSCode
 .vscode/
 
-# OS
-.DS_Store
 
 # logs
 *.log
@@ -15,3 +11,27 @@
 .env
 
 .dockerignore
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+
+# uv
+
+.venv/
+.python-version
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+
+# MkDocs
+
+site/
+
+# OS
+
+.DS_Store
+Thumbs.db
